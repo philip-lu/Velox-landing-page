@@ -32,5 +32,6 @@ Temporary Items
 *.css.map
 
 gulp/
+*.psd
 design/*.psd
 css/*.min.css
