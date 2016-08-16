@@ -34,4 +34,4 @@ Temporary Items
 gulp/
 *.psd
 design/*.psd
-css/*.min.css
+css/normalize.*
