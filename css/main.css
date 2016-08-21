@@ -157,11 +157,11 @@ img {
 
 /* Services */
 .services__list {
-  margin-bottom: 95px;
   font-size: 0;
   margin: 0;
   padding: 0;
-  list-style-type: none; }
+  list-style-type: none;
+  margin-bottom: 95px; }
 
 .services__item {
   font-size: 12px;
@@ -266,11 +266,11 @@ img {
     color: #00a5ff; }
 
 .projects {
-  margin-bottom: 60px;
   font-size: 0;
   margin: 0;
   padding: 0;
-  list-style-type: none; }
+  list-style-type: none;
+  margin-bottom: 60px; }
   .projects__item {
     display: inline-block;
     box-sizing: border-box;
@@ -571,13 +571,13 @@ img {
 
 @media screen and (max-width: 1110px) {
   .contact__list {
-    float: none;
-    max-width: 100%;
-    margin-bottom: 40px;
     font-size: 0;
     margin: 0;
     padding: 0;
-    list-style-type: none; }
+    list-style-type: none;
+    float: none;
+    max-width: 100%;
+    margin-bottom: 40px; }
   .contact__item {
     display: inline-block;
     width: 32%;

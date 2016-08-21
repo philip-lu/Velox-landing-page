@@ -219,9 +219,8 @@ img {
 
 .services {
   &__list {
-    margin-bottom: 95px;
-
     @include ulreset;
+    margin-bottom: 95px;
   }
 
   &__item {
@@ -364,9 +363,8 @@ img {
 }
 
 .projects {
-  margin-bottom: 60px;
-
   @include ulreset;
+  margin-bottom: 60px;
 
   &__item {
     display: inline-block;
@@ -793,11 +791,11 @@ img {
 @media screen and (max-width: 1110px) {
   .contact {
     &__list {
+      @include ulreset;
       float: none;
       max-width: 100%;
       margin-bottom: 40px;
 
-      @include ulreset;
     }
 
     &__item {
